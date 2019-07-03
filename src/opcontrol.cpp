@@ -73,6 +73,7 @@ void opcontrol() {
 
 		pros::lcd::clear();
 
+		// arm controll
 		// Right top
 		if( masterController.get_digital(pros::E_CONTROLLER_DIGITAL_R1) ) {
 			armMotor.move_velocity(200);
